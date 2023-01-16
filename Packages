@@ -1,0 +1,171 @@
+Package: apt
+Architecture: iphoneos-arm64
+Version: 2.5.2
+Priority: required
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 4204
+Provides: apt1.8 (= 1:0), apt-lib (= 1:0), libapt (=1:0), apt-key (= 1:0)
+Pre-Depends: dpkg (>= 1.14.25-8), system-cmds (>= 854.40.2-2)
+Depends: libiosexec1 (>= 1.2.2), libapt-pkg6.0 (= 2.5.2), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils, procursus-keyring
+Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0)
+Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
+Filename: ./pool/apt_2.5.2_iphoneos-arm64.deb
+Size: 1242808
+MD5sum: 5c59dce25e8d1ca2db9503f2ac174101
+SHA1: 9c11ab5f0e990496bc68955f06f9bac096e09e25
+SHA256: edb35ecfdc00dd34cb2601eed28197b6a20f7122ec17d3d2fedfa8c0327ca3b8
+SHA512: 13693d9c336ccf78640716f81f986986576242e6f2eab4395ac760c49d112320cab21b3b0e79c9ffa8ba86dbb5c00f8fb16ef911b8e07095a3fc5b045b9cd87d
+Description: commandline package manager
+ This package provides commandline tools for searching and
+ managing as well as querying information about packages
+ as a low-level access to all features of the libapt-pkg library.
+
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.36-3
+Priority: important
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./pool/cydia_1.1.36-3_iphoneos-arm.deb
+Size: 1242528
+MD5sum: f55218a68a1f0ac9966bd40d8cc5ee67
+SHA1: 6f175ddec364c843427ac50372a57bf36d79b353
+SHA256: 340a1b8ee2048f24ef50ba89cd405e205721180ab2f87f45c333640092d3c3ac
+SHA512: 6effca68161fc518ba26d27a42f5cc489b072a0183c080d8545cd99f3cbe0eb6737f0c4ac559406dafb52b92fdf1dcebd652107515454758b5076b20a6e6363d
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.36-4
+Priority: important
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 14.0)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./pool/cydia_1.1.36-4_iphoneos-arm.deb
+Size: 1333614
+MD5sum: 811c1642f40c858adbc2e1eada205eb7
+SHA1: 78d6f2b2daabff270daa28ad60c4ca751508bd90
+SHA256: 49790811ed5bf00dc09de5ffb8e34f7ea2967fca498d8dda1f4a4752fdf2c53f
+SHA512: ac469e61e0aad6c168b2d451211f31720120091206c0d42459091a293ea3a4fde9ae163a864547e9aedca07ebeccd42e9c83d48de03a8abf8b2628f3ec7e72f1
+Description: graphical iPhone front-end for APT. This version is fixed for iOS 15+
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.36-5
+Priority: important
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 12.0), org.azreal.cydiaupdatesarch
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./pool/cydia_1.1.36-5_iphoneos-arm.deb
+Size: 1333632
+MD5sum: adba6944177bc626d2b34acc7633659d
+SHA1: 4cf81214ffb44e6e0d66ed83b7987436bfd0c823
+SHA256: e9ec4e3bf8c2b60f2ae680cad15e5ece6057008dc0f610bc2b7f989b0a044047
+SHA512: 34b887ed5de2bb05714e9eb3c88edf15c0dd814283ea2d09b0c4adb46a0e92255e1b04ce21908caefcd0fe297be5f57a664f8a36b1737d181754b801cf8b6b83
+Description: graphical iPhone front-end for APT. Adds cydiaupdates architecture and repo to ensure latest patch is installed.
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
+Package: dpkg
+Architecture: iphoneos-arm64
+Version: 1.21.9
+Priority: required
+Essential: yes
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 5712
+Pre-Depends: tar (>= 1.23), libintl8 (>= 0.20)
+Depends: libiosexec1 (>= 1.2.2), sh, coreutils, diffutils, tar, liblzma5 (>= 5.2.5), libintl8, libz-ng2, libzstd1, libmd0
+Filename: ./pool/dpkg_1.21.9_iphoneos-arm64.deb
+Size: 1207006
+MD5sum: 78c6c9a7ec4edf37000874cd23b0637e
+SHA1: 3d6faa834150bf9c6b224484d3825e16cb1c2d39
+SHA256: 2370fbe6af7fca6c6e0162b733eea51b278a846051a8cbe4d32fbe5dbd7870cf
+SHA512: 2b2fc1bf2fbfb681866398826a6df086ba46421327bc4d002acd3802ec274363d215d1887b5bb6a945af0af1560c4f7f6bebbe1c662acbefe0d6217997a0dc61
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+
+Package: libzstd1
+Architecture: iphoneos-arm
+Version: 1.5.0
+Section: Libraries
+Maintainer: Aarnav Tale <aarnav@tale.me>
+Installed-Size: 1192
+Depends: lz4, lzma
+Filename: ./pool/libzstd1_1.5.0_iphoneos-arm.deb
+Size: 304812
+MD5sum: 341308b19358c4daa93f60a7ff2ba5a1
+SHA1: 77c2b36fb189361ccebbeb3207c98dfe14bf8cc1
+SHA256: 8bddfd21ec9e5ce343c3b39281b2b9281a84c8a48f95eb50659d627fdc37fa0a
+SHA512: e0350f38f6120ee34bf570660eabe2aaa84fdbd87b9611213d4f93149c495bd17dee8c852be097ee509ce8d4f7bf50b6b45bf58672f93cfae3cd493c376517ae
+Description: fast lossless compression algorithm
+ Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
+ real-time compression scenarios at zlib-level compression ratio.
+ .
+ This package contains the shared library.
+
+Package: org.azreal.cydiaupdatesarch
+Architecture: iphoneos-arm
+Version: 1
+Priority: important
+Section: Architectures
+Maintainer: Azreal
+Depends: org.coolstar.sileo, apt, dpkg
+Filename: ./pool/org.azreal.cydiaupdatesarch_1_iphoneos-arm.deb
+Size: 700
+MD5sum: da144b7fc14e6ad4bbdcc8bc65683e09
+SHA1: 16e444a107787fd9ec00a89e8e58eb7a414dfbfc
+SHA256: 0f0c7aae55b45cf91d71bf4f57ed6e3d34206d93765c8c1ef8286fa6bbe80204
+SHA512: d3d72e8373df820f2cfc1dbb62e1df784ae454432b4e04c9757d6d7488ea81a6301ea59ccd5f577aa90f1d2d115be7470d259c9a9ddbceeaad07ac3f037b6d8f
+Description: add "cydiaupdates" architecture to dpkg
+Name: cydiaupdatesarch
+Author: Azreal
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.3-1
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.3-1_iphoneos-arm.deb
+Size: 2180462
+MD5sum: 41eae225ce6006d6b58e40f6eefd310b
+SHA1: 619c9f89b2b5080b5d418b4e144f129cabd35cc4
+SHA256: adc97a544ef835faacc1b4344dc1f1474e1930d78f72ad53e161d3bad4e18192
+SHA512: 0880631c8b3a88af8e7390f0688f2af6101a0ed7c1ded364317d50aeacdb82d467fa225f02f22b5e2e4c0d3c8ec672cad6647fe3a32a5ce01dfcd606e9bfcde4
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+

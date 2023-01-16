@@ -1,0 +1,33 @@
+Architectures: cydiaupdates
+Codename: ios
+Components: main
+Date: Mon, 16 Jan 2023 14:25:59 +0000
+Description: A repository for Cydia patches
+Label: Cydia Updates
+Origin: Cydia Updates
+Suite: stable
+Version: 1.0
+MD5Sum:
+ f12150eafd6e620c70a10fe80f7251a1             8400 Packages
+ 53887d0275226604e0c09fdaf43fb5f0             3188 Packages.bz2
+ fad0bdace7d6c0ebf1005dc42d489717             2952 Packages.xz
+ d7452a114df2de51d23b66b80440cd83             2945 Packages.zst
+ 058b5a9c10b8fcdbbd2052766260a65f              211 Release
+SHA1:
+ d1cb28b79b24f9787c314feae450614f1a0484c9             8400 Packages
+ 9e2ff7e4d6509b7930a04115a6a23f26f39ce62a             3188 Packages.bz2
+ 7f14ab9225badf7e811c6b282de60f81b3cd17a7             2952 Packages.xz
+ 8f54d91e34cf8db40a045d0bd97d7580fd48301d             2945 Packages.zst
+ 1f83609d72824d679ea452750f95661aee60026f              211 Release
+SHA256:
+ e2f24b5b9ee36cfed55f01098d931d672053dc0e501671692d70afe04bdda9fe             8400 Packages
+ ee8d60008baa48eda5970a00bab5ab758d6e8c66488d518bdce56f74032a3387             3188 Packages.bz2
+ 8ca35bf033e674cea56db11fffa724c73cbe534af0ddb2dcb8b1e6d0961258c6             2952 Packages.xz
+ e833794eaa48f1bb97034fa080079e936850ea56e01d4e09fb9f749531292327             2945 Packages.zst
+ 28aaa568ca92ea4c6085578e1326439e685595e0c2460e27bbf5d717330e3350              211 Release
+SHA512:
+ f78b9a2f2577d0af6157f96cfbb7ac929a88fbcc8320ba85fd4ebfd0ae7a87e8a95019c758ebf1b976e0a486a40deeda5b0c50eb9988a152232cf9b3d851187c             8400 Packages
+ ef211101a974184f69b5507d129a9f42a4dcd92ed723dfc5b8f52d9699a7128de58a594c5b3a2796d184ee4b8674d47f0fb77d3e4395b0b885f28abe38f02666             3188 Packages.bz2
+ 838c98b0da739dac323b19a799918e8a532a93456f8b778334e8c4edcdc295030e5f3348db9ceebdf443bf6a1c9d8b2dd7074158f33e9d1c3211ea0e95a8b69f             2952 Packages.xz
+ c31ffd8683285a09935063525c0aa33538c1a99ca41b5d23122b7fca293ff7216992338215fbfa2df332dce0b6515d0923502d5750acfa59ff933508b7f59ad9             2945 Packages.zst
+ a641e095dc5822208ed45fc8b6b636738505af8dbb90d85aaebce3464eb81d41f7347c94eb3db4c517add2f643043900238b5898e212343418b2d9775a4340da              211 Release
