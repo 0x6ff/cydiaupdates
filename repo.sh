@@ -17,7 +17,7 @@ apt-ftparchive \
 		-o APT::FTPArchive::Release::Suite="stable" \
 		-o APT::FTPArchive::Release::Version="1.0" \
 		-o APT::FTPArchive::Release::Codename="ios" \
-		-o APT::FTPArchive::Release::Architectures="cydiaupdates" \
+		-o APT::FTPArchive::Release::Architectures="iphoneos-arm" \
 		-o APT::FTPArchive::Release::Components="main" \
 		-o APT::FTPArchive::Release::Description="A repository for Cydia patches" \
 		release . > Release
