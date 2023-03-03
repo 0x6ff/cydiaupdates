@@ -96,6 +96,31 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
 
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.37
+Priority: important
+Section: Packaging
+Maintainer: Hephaestus Team <me@ironside.org.uk>
+Installed-Size: 6496
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 12.0)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./pool/cydia_1.1.37_iphoneos-arm.deb
+Size: 1333606
+MD5sum: c3f44636519aca88b75ae84fc6442be3
+SHA1: 287d47fc191797148e5c493892a75f20bd1198ee
+SHA256: d359295982ca65a305259233171ca062b49ea9ec9056fd6cc43802df386cca9a
+SHA512: cbe789de63a297197057ab4908f23c9cf103002357b53a75d071bcfd61a9a6fdb7f3bbe51898b262f530ab89f805ad7a672dfabe71bae493c30687cbad4f4b29
+Description: graphical iPhone front-end for APT.
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://repo.ironside.org.uk/cydia
+Icon: http://cydia.saurik.com/icon@2x/cydia7.png
+
 Package: dpkg
 Architecture: iphoneos-arm64
 Version: 1.21.9

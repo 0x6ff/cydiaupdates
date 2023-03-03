@@ -1,33 +1,33 @@
-Architectures: cydiaupdates, iphoneos-arm
+Architectures: iphoneos-arm
 Codename: ios
 Components: main
-Date: Mon, 16 Jan 2023 14:37:03 +0000
+Date: Fri, 03 Mar 2023 19:32:19 +0000
 Description: A repository for Cydia patches
 Label: Cydia Updates
 Origin: Cydia Updates
 Suite: stable
 Version: 1.0
 MD5Sum:
- f12150eafd6e620c70a10fe80f7251a1             8400 Packages
- 53887d0275226604e0c09fdaf43fb5f0             3188 Packages.bz2
- fad0bdace7d6c0ebf1005dc42d489717             2952 Packages.xz
- d7452a114df2de51d23b66b80440cd83             2945 Packages.zst
- a89a809bfe50188d20423b3aec848b7f              211 Release
+ 172ec186eae4fb4e21700eb832a46adf             9738 Packages
+ 19102ed3330b269a06e8d847650d305a             3446 Packages.bz2
+ 4be5683cf5dfdd4c76160168967c7c6e             3164 Packages.xz
+ 2bd4fae44cc8c5a9b8055463d3a3aed4             3168 Packages.zst
+ 6a9a5b2ab5d2f6037a3570dc1b818066              211 Release
 SHA1:
- d1cb28b79b24f9787c314feae450614f1a0484c9             8400 Packages
- 9e2ff7e4d6509b7930a04115a6a23f26f39ce62a             3188 Packages.bz2
- 7f14ab9225badf7e811c6b282de60f81b3cd17a7             2952 Packages.xz
- 8f54d91e34cf8db40a045d0bd97d7580fd48301d             2945 Packages.zst
- ca96781a2edd05a48897abc37a66d5f464d55ef0              211 Release
+ e2f5c3a28aafb262ecb8d8c5390c1ff8fee005c2             9738 Packages
+ 17fff1da7f14e6aa4a16030076bb5687ed0a1154             3446 Packages.bz2
+ 40089d27f53e62319d3ea74ad56588edb2f17931             3164 Packages.xz
+ 0932f2198d9330d8220c25a45686d9eaf6993c59             3168 Packages.zst
+ 6fc3184c53ce3160074e9caa25034f3e834b5761              211 Release
 SHA256:
- e2f24b5b9ee36cfed55f01098d931d672053dc0e501671692d70afe04bdda9fe             8400 Packages
- ee8d60008baa48eda5970a00bab5ab758d6e8c66488d518bdce56f74032a3387             3188 Packages.bz2
- 8ca35bf033e674cea56db11fffa724c73cbe534af0ddb2dcb8b1e6d0961258c6             2952 Packages.xz
- e833794eaa48f1bb97034fa080079e936850ea56e01d4e09fb9f749531292327             2945 Packages.zst
- de4e367d007a1a8e0bd0b0b8d4fe188099638d69f444b80a450d483dd8a845e2              211 Release
+ 5435cf6035f0071cd60d9f641b9dd097a45eecb7dd624dd463a06f7429f26810             9738 Packages
+ 3fdf60a7bea3fa9696f02d3b85f0cb6c8bcb677606fdf672505dd34f2861583a             3446 Packages.bz2
+ a255a77b135da34af19ef67efbd4aaa63ca9507866538cb7daa428565c655b99             3164 Packages.xz
+ 96a34dae062505bf40004c9cb35e0068217c8f3735c0d7dc547c53b05090f2fd             3168 Packages.zst
+ 60ae2c39158e406c35c2fed9f8ac4be20ca6e0a62b52330dc9a72b598a6c7748              211 Release
 SHA512:
- f78b9a2f2577d0af6157f96cfbb7ac929a88fbcc8320ba85fd4ebfd0ae7a87e8a95019c758ebf1b976e0a486a40deeda5b0c50eb9988a152232cf9b3d851187c             8400 Packages
- ef211101a974184f69b5507d129a9f42a4dcd92ed723dfc5b8f52d9699a7128de58a594c5b3a2796d184ee4b8674d47f0fb77d3e4395b0b885f28abe38f02666             3188 Packages.bz2
- 838c98b0da739dac323b19a799918e8a532a93456f8b778334e8c4edcdc295030e5f3348db9ceebdf443bf6a1c9d8b2dd7074158f33e9d1c3211ea0e95a8b69f             2952 Packages.xz
- c31ffd8683285a09935063525c0aa33538c1a99ca41b5d23122b7fca293ff7216992338215fbfa2df332dce0b6515d0923502d5750acfa59ff933508b7f59ad9             2945 Packages.zst
- d96830be68fdbfe17cf6148f973ad70910e3b2eef77e79fdd3cbed2d0c6a279a58ee4a382c533e527802b1655d6296ed8f3dcfd703450d281235308bca028b91              211 Release
+ a5587719e3e1536f5ddf98ed5f33d7a5c9a9bae079412162f18b007f5f1f699b2d19ca1ac3760a82a6057f915e90a8276f869d3a802097bc198187be94e984cf             9738 Packages
+ fbd209ea40bc07862a0d21fa47365c2270ce17276371f3ad4065d8d16fac01de5a5b1fa1d051955054b708462ac8ee81c740004ea043a119039f16224287fbdf             3446 Packages.bz2
+ e605b47a8616b63d268364a7edfdf1fb5eba2955ff5ad6a4a7db6b0701babd67db046f64c3a433ec8ea320807918d74b5475fee7fda2e1aaae4c8561b4eccbe0             3164 Packages.xz
+ 6dfc9e7b496bb2441f7bdac3dc971619a3935eb0e7542de55957e879e2bc5910fe5c353796baf89cf873f14b6b200f695d6994ab548178be6dc0c1d3913e60d9             3168 Packages.zst
+ d55900020ae2ad3dbf0485f7f3daf7877f0e87fe59551aaff7c5260ccf3fc8d9a16cb62989cac84ca8d585a27ae8184d2149b85e9cbbbe51b208bbf4e07e728f              211 Release
