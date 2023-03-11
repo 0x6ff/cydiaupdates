@@ -1,21 +1,47 @@
+Package: apt-utils
+Architecture: iphoneos-arm
+Version: 2.5.6
+Priority: standard
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 1116
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libiosexec1 (>= 1.2.2), apt (=2.5.6), libdb18.1
+Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
+Filename: ./pool/apt-utils_2.5.6_iphoneos-arm.deb
+Size: 317162
+MD5sum: f2713037a856277881028feaf7f9d9a1
+SHA1: 5d567a7fb142710684d4ec9c6b9f970fb2f6429b
+SHA256: e956e60de665d968adf62da0ac649e027d517f80eea9a3af55723fe713a5db58
+SHA512: 022eb403bd8e14c64dcf257dd12e14043bb481741dddeedd0e30522dbd545a5e18250843395dc75ea868f7023c95d5dec2177e2126d0e0721bc41d1e4dde26ca
+Description: package management related utility programs
+ This package contains some less used commandline utilities related
+ to package management with APT.
+ .
+  * apt-extracttemplates is used by debconf to prompt for configuration
+    questions before installation.
+  * apt-ftparchive is used to create Packages and other index files
+    needed to publish an archive of Debian packages
+  * apt-sortpkgs is a Packages/Sources file normalizer.
+
 Package: apt
-Architecture: iphoneos-arm64
-Version: 2.5.2
+Architecture: iphoneos-arm
+Version: 2.5.6
 Priority: required
 Section: Packaging
 Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 4204
+Installed-Size: 4252
 Provides: apt1.8 (= 1:0), apt-lib (= 1:0), libapt (=1:0), apt-key (= 1:0)
 Pre-Depends: dpkg (>= 1.14.25-8), system-cmds (>= 854.40.2-2)
-Depends: libiosexec1 (>= 1.2.2), libapt-pkg6.0 (= 2.5.2), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils, procursus-keyring
+Depends: libiosexec1 (>= 1.2.2), libapt-pkg6.0 (= 2.5.6), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils, procursus-keyring
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0)
 Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
-Filename: ./pool/apt_2.5.2_iphoneos-arm64.deb
-Size: 1242808
-MD5sum: 5c59dce25e8d1ca2db9503f2ac174101
-SHA1: 9c11ab5f0e990496bc68955f06f9bac096e09e25
-SHA256: edb35ecfdc00dd34cb2601eed28197b6a20f7122ec17d3d2fedfa8c0327ca3b8
-SHA512: 13693d9c336ccf78640716f81f986986576242e6f2eab4395ac760c49d112320cab21b3b0e79c9ffa8ba86dbb5c00f8fb16ef911b8e07095a3fc5b045b9cd87d
+Filename: ./pool/apt_2.5.6_iphoneos-arm.deb
+Size: 1396242
+MD5sum: 6850925247c45d31659d81a4efcfbdd6
+SHA1: 0989d4211f6999aa37714fbdf92e9064e83cecdc
+SHA256: 85b965dc6e8a4347e80a37f4efd63c15e23f25990d7fb3c226acb7c17cadb756
+SHA512: b60e3765998803386eb046bcf4f0ba4a77c9d122d0855ed980a3f891e920bd97fde355fbe6ee86fb3eaae054e130f15efb2f729f5bf90d835a49296fcd95e977
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -122,23 +148,113 @@ Depiction: http://repo.ironside.org.uk/cydia
 Icon: http://cydia.saurik.com/icon@2x/cydia7.png
 
 Package: dpkg
-Architecture: iphoneos-arm64
-Version: 1.21.9
+Architecture: iphoneos-arm
+Version: 1.21.20
 Priority: required
 Essential: yes
 Section: Packaging
 Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 5712
+Installed-Size: 6132
 Pre-Depends: tar (>= 1.23), libintl8 (>= 0.20)
 Depends: libiosexec1 (>= 1.2.2), sh, coreutils, diffutils, tar, liblzma5 (>= 5.2.5), libintl8, libz-ng2, libzstd1, libmd0
-Filename: ./pool/dpkg_1.21.9_iphoneos-arm64.deb
-Size: 1207006
-MD5sum: 78c6c9a7ec4edf37000874cd23b0637e
-SHA1: 3d6faa834150bf9c6b224484d3825e16cb1c2d39
-SHA256: 2370fbe6af7fca6c6e0162b733eea51b278a846051a8cbe4d32fbe5dbd7870cf
-SHA512: 2b2fc1bf2fbfb681866398826a6df086ba46421327bc4d002acd3802ec274363d215d1887b5bb6a945af0af1560c4f7f6bebbe1c662acbefe0d6217997a0dc61
+Filename: ./pool/dpkg_1.21.20_iphoneos-arm.deb
+Size: 1547110
+MD5sum: b49fcad081922d936e6d627aa824da16
+SHA1: c18ce397cafd5fd92e07fda4447d08e59e3cbfcf
+SHA256: 4e13192f44194e1f4d7802d8de45538d7e6493d5962201a9ac4b987b0f71a232
+SHA512: d2d0d1a1ddc270228efcdec0e9b95a3637639f8ce20ca44a05c7f037456d8ff0d4d317b681eefb1764695e479e782965723ac20174f81c4c5978c2fe8a6b4fb0
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: package maintainance tools from Debian
+
+Package: libapt-pkg6.0
+Architecture: iphoneos-arm
+Version: 2.5.6
+Priority: required
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 2888
+Provides: libapt-pkg (=2.5.6)
+Depends: libiosexec1 (>= 1.2.2), libgcrypt20, liblz4-1, liblzma5 (>= 5.2.5), libxxhash0, libzstd1
+Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8 (<<1:0), libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0), apt (<< 2.1.10-2)
+Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key, apt (<< 2.1.10-2)
+Filename: ./pool/libapt-pkg6.0_2.5.6_iphoneos-arm.deb
+Size: 1045108
+MD5sum: 185915ef5aa286bad29e5a575ec8ce48
+SHA1: f2e421322ca72dce4d3785397c48841a1ebb9a71
+SHA256: d1d3d43377295da8aa903860e2597790385b9d20506e939da399464cf2b219a9
+SHA512: 56f1adfae125e906913bc9a2d13982340773fff809326f0f049ac81d28ead158463bf161945a22cd56642b9bbb203ea373078693c9570d1a2eb0cd30a74d5106
+Description: commandline package manager
+ This package provides commandline tools for searching and
+ managing as well as querying information about packages
+ as a low-level access to all features of the libapt-pkg library.
+
+Package: libdpkg-perl
+Architecture: iphoneos-arm
+Version: 1.21.20
+Priority: optional
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 1828
+Provides: dpkg-perl (= 1.21.20)
+Depends: dpkg (= 1.21.20), perl
+Conflicts: dpkg-perl (<<1:0), dpkg-dev (<< 1.21.20)
+Replaces: dpkg-perl
+Filename: ./pool/libdpkg-perl_1.21.20_iphoneos-arm.deb
+Size: 447680
+MD5sum: abdfa2368e011e9731ea98be8018f3a6
+SHA1: dc0808a7c598eed2c49c7d8d1e845c10d53eb7f6
+SHA256: 8388990ea755fe25efdaf60dbff753f8715ff7f06c583861ded7c9eccd74519e
+SHA512: 949293bb7eaf3ffe8b07463ac63518f425173fa6fa2e62c872911a3d1423f6b5e191f4c8558c0a34323c73c6f6e3637a0653a64f446c8de8c40adf6e81644e22
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: Dpkg perl modules
+ This package provides the perl modules used by the scripts
+ in dpkg-dev. They cover a wide range of functionality. Among them
+ there are the following public modules:
+ .
+  - Dpkg: core variables
+  - Dpkg::Arch: architecture handling functions
+  - Dpkg::Build::Info: build information functions
+  - Dpkg::BuildFlags: set, modify and query compilation build flags
+  - Dpkg::BuildOptions: parse and manipulate DEB_BUILD_OPTIONS
+  - Dpkg::BuildProfiles: parse and manipulate build profiles
+  - Dpkg::Changelog: parse changelogs
+  - Dpkg::Changelog::Entry: represents a changelog entry
+  - Dpkg::Changelog::Parse: generic changelog parser for dpkg-parsechangelog
+  - Dpkg::Checksums: generate and parse checksums
+  - Dpkg::Compression: simple database of available compression methods
+  - Dpkg::Compression::FileHandle: transparently (de)compress files
+  - Dpkg::Compression::Process: wrapper around compression tools
+  - Dpkg::Conf: parse dpkg configuration files
+  - Dpkg::Control: parse and manipulate Debian control information
+    (.dsc, .changes, Packages/Sources entries, etc.)
+  - Dpkg::Control::Changelog: represent fields output by dpkg-parsechangelog
+  - Dpkg::Control::Fields: manage (list of known) control fields
+  - Dpkg::Control::Hash: parse and manipulate a block of RFC822-like fields
+  - Dpkg::Control::Info: parse files like debian/control
+  - Dpkg::Control::Tests: parse files like debian/tests/control
+  - Dpkg::Control::Tests::Entry: represents a debian/tests/control stanza
+  - Dpkg::Deps: parse and manipulate dependencies
+  - Dpkg::Deps::Simple: represents a single dependency statement
+  - Dpkg::Deps::Multiple: base module to represent multiple dependencies
+  - Dpkg::Deps::Union: list of unrelated dependencies
+  - Dpkg::Deps::AND: list of AND dependencies
+  - Dpkg::Deps::OR: list of OR dependencies
+  - Dpkg::Deps::KnownFacts: list of installed and virtual packages
+  - Dpkg::Exit: push, pop and run exit handlers
+  - Dpkg::Gettext: wrapper around Locale::gettext
+  - Dpkg::IPC: spawn sub-processes and feed/retrieve data
+  - Dpkg::Index: collections of Dpkg::Control (Packages/Sources files for
+    example)
+  - Dpkg::Interface::Storable: base object serializer
+  - Dpkg::Path: common path handling functions
+  - Dpkg::Source::Format: manipulate debian/source/format files
+  - Dpkg::Source::Package: extract Debian source packages
+  - Dpkg::Substvars: substitute variables in strings
+  - Dpkg::Vendor: identify current distribution vendor
+  - Dpkg::Version: parse and manipulate Debian package versions
+ .
+ All the packages listed in Suggests or Recommends are used by some of the
+ modules.
 
 Package: libzstd1
 Architecture: iphoneos-arm
